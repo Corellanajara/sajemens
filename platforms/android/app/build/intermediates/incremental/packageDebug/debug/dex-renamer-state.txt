@@ -1,0 +1,4 @@
+#Thu Aug 23 22:17:49 CLST 2018
+base.0=/home/chris/proyectos/sms/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0
+renamed.0=classes.dex
+file.0=/home/chris/proyectos/sms/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex

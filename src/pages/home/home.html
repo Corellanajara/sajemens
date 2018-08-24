@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-navbar >
+    <ion-title>
+      Mandar SMS
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-card>
+    <ion-item>
+      <ion-label stacked>Telefono</ion-label>
+      <ion-input [(ngModel)]="text.number" type="text"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label stacked>Mensaje</ion-label>
+      <ion-textarea [(ngModel)]="text.message"></ion-textarea>
+    </ion-item>
+
+    <ion-item>
+      <button ion-button icon-left clear item-right (click)="sendSms()">
+      <ion-icon name="checkmark"></ion-icon>
+      Enviar
+    </button>
+    </ion-item>
+  </ion-card>
+  <p>{{error}}</p>
+</ion-content>
